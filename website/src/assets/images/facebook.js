@@ -1,1 +1,1 @@
-export default 'http://res.cloudinary.com/starksten/image/upload/v1528125308/new-portfolio/facebook.png';
+export default 'https://res.cloudinary.com/gavi612/image/upload/v1551142771/facebook.png';

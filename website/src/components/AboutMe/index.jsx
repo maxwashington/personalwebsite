@@ -6,10 +6,10 @@ import logo from '../../assets/images/logo';
 import topMiddle from '../../assets/images/topMiddle';
 import mobileBG from '../../assets/images/mobileBG';
 import {
-    slideFromLeft,
-    slideFromRight,
-    slideFromBottom,
-    bounce,
+  slideFromLeft,
+  slideFromRight,
+  slideFromBottom,
+  bounce,
 } from '../../assets/animations';
 
 const StyledDiv = styled.div`
@@ -171,17 +171,18 @@ const BottomBG = styled.div`
 const description = `Hey thanks for stopping by and chekcing out my website. Im Max and I love web designs and this is my creative outlet. `;
 
 export default () => (
-    <StyledDiv>
-        <TopLeftBG />
-        <GridContainer>
-            <LogoContainer />
-            <Container>
-                <NameContainer>MAX WASHINGTON</NameContainer>
-                <Position>Front-end Developer & UI Designer</Position>
-            </Container>
-            <AboutMe>{description}</AboutMe>
-        </GridContainer>
-        <BottomBG />
-    </StyledDiv>
+  <StyledDiv>
+    <TopLeftBG />
+    <GridContainer>
+      <LogoContainer />
+      <Container>
+        <NameContainer>
+          MAX WASHINGTON</NameContainer>
+        <Position>Front-end Developer & UI Designer</Position>
+      </Container>
+      <AboutMe>{description}</AboutMe>
+    </GridContainer>
+    <BottomBG />
+  </StyledDiv>
 );
 

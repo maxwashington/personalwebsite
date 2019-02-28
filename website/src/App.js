@@ -29,8 +29,11 @@
 
 import React from 'react';
 import styled from 'styled-components';
-import AboutMe from './components/AboutMe/index';
-import black from './assets/themes/black'
+import AboutMe from './components/AboutMe';
+import Skills from './components/Skills/index';
+import black from './assets/themes/black';
+import Portfolio from './components/Portfolio';
+import Footer from './components/Footer/index';
 
 const StyledDiv = styled.div``;
 
@@ -49,6 +52,11 @@ const MiddlePart = styled.div`
 
 export default () => (
   <StyledDiv>
-    <AboutMe/>
+    <AboutMe />
+    <MiddlePart>
+      <Skills />
+      <Portfolio />
+    </MiddlePart>
+    <Footer />
   </StyledDiv>
 );

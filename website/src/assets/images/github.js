@@ -1,1 +1,1 @@
-export default 'http://res.cloudinary.com/starksten/image/upload/v1528125307/new-portfolio/github.png';
+export default 'https://res.cloudinary.com/gavi612/image/upload/v1551396194/github-brands.svg';
