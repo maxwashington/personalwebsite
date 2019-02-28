@@ -168,11 +168,7 @@ const BottomBG = styled.div`
   }
 `;
 
-const description = `Hey there, fellow human. I'm Godfrey, a front-end developer / UI
-        designer by day and by night too (because why not). Kidding aside, I'm a ReactJS developer.
-        I've been a front-end dev for over 2 years and haven't looked back since. I can help you turn your
-        "Million Dollar Idea" into a web application XD. But seriously, you can take take a look at my github or contact me
-        and I might share you my private repositories if my open source projects aren't enough.`;
+const description = `Hey thanks for stopping by and chekcing out my website. Im Max and I love web designs and this is my creative outlet. `;
 
 export default () => (
     <StyledDiv>
@@ -180,7 +176,7 @@ export default () => (
         <GridContainer>
             <LogoContainer />
             <Container>
-                <NameContainer>GODFREY ZUBIAGA</NameContainer>
+                <NameContainer>MAX WASHINGTON</NameContainer>
                 <Position>Front-end Developer & UI Designer</Position>
             </Container>
             <AboutMe>{description}</AboutMe>

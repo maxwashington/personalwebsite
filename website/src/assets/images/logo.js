@@ -1,1 +1,1 @@
-export default 'https://res.cloudinary.com/starksten/image/upload/v1539070735/New%20Portfolio%202/Logo.png';
+export default 'https://res.cloudinary.com/gavi612/image/upload/v1551390215/LogoBlack.svg';
